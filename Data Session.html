@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Thread</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f8fa;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .tweet-container {
+            width: 600px;
+            margin: 20px auto;
+            background: #fff;
+            border: 1px solid #e1e8ed;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .tweet-header,
+        .tweet-footer {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            border-bottom: 1px solid #e1e8ed;
+        }
+
+        .tweet-header {
+            justify-content: flex-start;
+        }
+
+        .profile-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #657786;
+            margin-right: 10px;
+        }
+
+        .user-info {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+
+        .user-name {
+            font-weight: bold;
+            color: #14171a;
+            text-align: left;
+        }
+
+        .user-id {
+            color: #657786;
+            text-align: left;
+        }
+
+        .tweet-content {
+            padding: 15px;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #14171a;
+        }
+
+        .tweet-footer {
+            justify-content: space-around;
+            border-top: 1px solid #e1e8ed;
+        }
+
+        .tweet-footer div {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            color: #657786;
+        }
+
+        .tweet-footer div:hover {
+            color: #1da1f2;
+        }
+
+        .tweet-footer .icon {
+            margin-right: 5px;
+        }
+
+        .tweet-stats {
+            margin-left: 5px;
+        }
+
+        .quoted-tweet {
+            margin-top: 10px;
+            padding: 10px;
+            border-left: 4px solid #e1e8ed;
+            background: #f5f8fa;
+        }
+
+        .quoted-tweet .user-name {
+            font-weight: bold;
+            color: #14171a;
+            text-align: left;
+        }
+
+        .quoted-tweet .user-id {
+            color: #657786;
+            text-align: left;
+        }
+
+        .quoted-tweet .tweet-content {
+            font-size: 14px;
+            color: #14171a;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Twitter Thread Container -->
+    <div id="thread">
+        <!-- Tweet 2 with Images -->
+        <div class="tweet-container">
+            <div class="tweet-header">
+                <div class="profile-image"></div>
+                <div class="user-info">
+                    <span class="user-name">Poodle</span>
+                    <span class="user-id">@poodle</span>
+                </div>
+            </div>
+            <div class="tweet-content">
+                All schools? What does that mean? <br>
+                Here is the answer. <br><br>
+                Korean feminists went undercover and investigated the case themselves. Really every school..
+                <div class="quoted-tweet">
+                    <div class="user-name">Poodle</div>
+                    <div class="user-id">@poodle</div>
+                    <div class="tweet-content">
+                        In fact, secret men's Telegram rooms were discovered in over 70% of South Korean schools where female students' faces were photoshopped into porn using AI. <br><br>
+                        Girls in South Korea created a list of schools to check if they were victims. This is just a part of it. <br> <br>
+                        <img src="./2-1.jpeg" alt="Image 1" width="600">
+                        <img src="./2-2.jpeg" alt="Image 2" width="600">
+                        <img src="./2-3.jpeg" alt="Image 3" width="600">
+                        <img src="./2-4.jpeg" alt="Image 4" width="600">
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-footer">
+                <div><span class="icon">💬</span><span class="tweet-stats">4</span></div>
+                <div><span class="icon">🔄</span><span class="tweet-stats">728</span></div>
+                <div><span class="icon">❤️</span><span class="tweet-stats">3.6k</span></div>
+                <div><span class="icon">🔖</span><span class="tweet-stats">143</span></div>
+            </div>
+        </div>
+
+        <!-- Tweet 5 with Images -->
+        <div class="tweet-container">
+            <div class="tweet-header">
+                <div class="profile-image"></div>
+                <div class="user-info">
+                    <span class="user-name">Poodle</span>
+                    <span class="user-id">@poodle</span>
+                </div>
+            </div>
+            <div class="tweet-content">
+                This is a plan to escape after the men's secret Telegram room was discovered by the women.
+                <div class="quoted-tweet">
+                    <div class="user-name">Telegram Undercover</div>
+                    <div class="user-id">@undercover</div>
+                    <div class="tweet-content">
+                        <i>[Someone posted it but deleted it right away. But I saw it, and I feel like I should share it anyway.]</i> <br><br>
+                        <img src="./5-1.jpeg" alt="Image 5-1" width="600">
+                        <img src="./5-2.jpeg" alt="Image 5-2" width="600">
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-footer">
+                <div><span class="icon">💬</span><span class="tweet-stats">20</span></div>
+                <div><span class="icon">🔄</span><span class="tweet-stats">28</span></div>
+                <div><span class="icon">❤️</span><span class="tweet-stats">105</span></div>
+                <div><span class="icon">🔖</span><span class="tweet-stats">10</span></div>
+            </div>
+        </div>
+
+        <!-- Tweet 6 with Video -->
+        <div class="tweet-container">
+            <div class="tweet-header">
+                <div class="profile-image"></div>
+                <div class="user-info">
+                    <span class="user-name">Poodle</span>
+                    <span class="user-id">@poodle</span>
+                </div>
+            </div>
+            <div class="tweet-content">
+                Your attention has created a miracle of getting the Korean government and media to work. <br><br>
+                Thank you. Thank you feminists around the world.
+                <div class="quoted-tweet">
+                    <div class="user-name">Poodle</div>
+                    <div class="user-id">@poodle</div>
+                    <div class="tweet-content">
+                        Now all the Korean news is reporting on the deepfake incident. And the South Korean president and opposition leader also ordered a resolution to this incident. <br><br>
+                        This miracle happened in just a few days because feminists overseas showed solidarity with feminists in the South 🧵 <br><br>
+                        <img src="./6-1.jpeg" alt="Image 6-1" width="600">
+                        <video width="600" controls>
+                            <source src="./6-2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-footer">
+                <div><span class="icon">💬</span><span class="tweet-stats">399</span></div>
+                <div><span class="icon">🔄</span><span class="tweet-stats">31k</span></div>
+                <div><span class="icon">❤️</span><span class="tweet-stats">76k</span></div>
+                <div><span class="icon">🔖</span><span class="tweet-stats">5.4k</span></div>
+            </div>
+        </div>
+
+        <!-- Tweet 7 with Video -->
+        <div class="tweet-container">
+            <div class="tweet-header">
+                <div class="profile-image"></div>
+                <div class="user-info">
+                    <span class="user-name">Poodle</span>
+                    <span class="user-id">@poodle</span>
+                </div>
+            </div>
+            <div class="tweet-content">
+                <!-- Removed the dot and left it empty -->
+                <div class="quoted-tweet">
+                    <div class="user-name">Poodle</div>
+                    <div class="user-id">@poodle</div>
+                    <div class="tweet-content">
+                        감사합니다 Thank you Gracias Merci Danke ありがとうございます 谢谢 Grazie Спасибо شكراً धन्यवाद Obrigado Teşekkür ederim Cảm ơn ขอบคุณ Terima kasih Dziękuję Dank u Tack <br><br>
+                        Thank you to all the sisters and feminists around the world. 🙇‍♀️ <br><br>
+                        <video width="600" controls>
+                            <source src="./7-1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-footer">
+                <div><span class="icon">💬</span><span class="tweet-stats">233</span></div>
+                <div><span class="icon">🔄</span><span class="tweet-stats">3.3k</span></div>
+                <div><span class="icon">❤️</span><span class="tweet-stats">16k</span></div>
+                <div><span class="icon">🔖</span><span class="tweet-stats">350</span></div>
+            </div>
+        </div>
+
+        <!-- Tweet 8 with Image -->
+        <div class="tweet-container">
+            <div class="tweet-header">
+                <div class="profile-image"></div>
+                <div class="user-info">
+                    <span class="user-name">Poodle</span>
+                    <span class="user-id">@poodle</span>
+                </div>
+            </div>
+            <div class="tweet-content">
+                <!-- Removed the dot and left it empty -->
+                <div class="quoted-tweet">
+                    <div class="user-name">Poodle</div>
+                    <div class="user-id">@poodle</div>
+                    <div class="tweet-content">
+                        🇰🇷 Breaking news 🇰🇷 <br><br>
+                        South Korean journalists who wrote articles about Telegram deepfake child sex crimes are being blackmailed with deepfakes by the perpetrators. <br><br>
+                        Article link: https://n.news.naver.com/article/... <br><br>
+                        <img src="./8-1.jpeg" alt="Image 8-1" width="600">
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-footer">
+                <div><span class="icon">💬</span><span class="tweet-stats">155</span></div>
+                <div><span class="icon">🔄</span><span class="tweet-stats">18k</span></div>
+                <div><span class="icon">❤️</span><span class="tweet-stats">35k</span></div>
+                <div><span class="icon">🔖</span><span class="tweet-stats">2.3k</span></div>
+            </div>
+        </div>
+
+        <!-- Tweet 12 with Video -->
+        <div class="tweet-container">
+            <div class="tweet-header">
+                <div class="profile-image"></div>
+                <div class="user-info">
+                    <span class="user-name">Poodle</span>
+                    <span class="user-id">@poodle</span>
+                </div>
+            </div>
+            <div class="tweet-content">
+                On September 1, South Korean women will launch a hashtag campaign asking the South Korean government to expel the perpetrator from school and reveal his identity (video is evidence) <br><br>
+                # DigitalSexCrimes_in_Schools <br>
+                # Expose_the_Deepfake_Perpetrators <br>
+                # SouthKorea_expels_criminals
+                <div class="quoted-tweet">
+                    <div class="user-name">Poodle</div>
+                    <div class="user-id">@poodle</div>
+                    <div class="tweet-content">
+                        <img src="./12-1.jpeg" alt="Image 12-1" width="600"> <br>
+                        <video width="600" controls>
+                            <source src="./12-2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-footer">
+                <div><span class="icon">💬</span><span class="tweet-stats">82</span></div>
+                <div><span class="icon">🔄</span><span class="tweet-stats">15k</span></div>
+                <div><span class="icon">❤️</span><span class="tweet-stats">23k</span></div>
+                <div><span class="icon">🔖</span><span class="tweet-stats">2.4k</span></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
