@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Thread</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f8fa;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .tweet-container {
+            width: 600px;
+            margin: 20px auto;
+            background: #fff;
+            border: 1px solid #e1e8ed;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .tweet-header,
+        .tweet-footer {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            border-bottom: 1px solid #e1e8ed;
+        }
+
+        .tweet-header {
+            justify-content: flex-start;
+        }
+
+        .profile-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #657786;
+            margin-right: 10px;
+        }
+
+        .user-info {
+            display: flex;
+            flex-direction: column;
+            text-align: left; /* Ensures text alignment is left */
+        }
+
+        .user-name {
+            font-weight: bold;
+            color: #14171a;
+            text-align: left; /* Left aligns username */
+        }
+
+        .user-id {
+            color: #657786;
+            text-align: left; /* Left aligns user-id */
+        }
+
+        .tweet-content {
+            padding: 15px;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #14171a;
+        }
+
+        .tweet-footer {
+            justify-content: space-around;
+            border-top: 1px solid #e1e8ed;
+        }
+
+        .tweet-footer div {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            color: #657786;
+        }
+
+        .tweet-footer div:hover {
+            color: #1da1f2;
+        }
+
+        .tweet-footer .icon {
+            margin-right: 5px;
+        }
+
+        .tweet-stats {
+            margin-left: 5px;
+        }
+
+        .quoted-tweet {
+            margin-top: 10px;
+            padding: 10px;
+            border-left: 4px solid #e1e8ed;
+            background: #f5f8fa;
+        }
+
+        .quoted-tweet .user-name {
+            font-weight: bold;
+            color: #14171a;
+            text-align: left; /* Left aligns username */
+        }
+
+        .quoted-tweet .user-id {
+            color: #657786;
+            text-align: left; /* Left aligns user-id */
+        }
+
+        .quoted-tweet .tweet-content {
+            font-size: 14px;
+            color: #14171a;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Twitter Thread Container -->
+    <div id="thread">
+        <!-- Tweet 1 with Quoted Tweet -->
+        <div class="tweet-container">
+            <div class="tweet-header">
+                <div class="profile-image"></div>
+                <div class="user-info">
+                    <span class="user-name">Poodle</span>
+                    <span class="user-id">@poodle</span>
+                </div>
+            </div>
+            <div class="tweet-content">
+                Why are so many Korean women suddenly asking for help from foreigners all at once? Why do Korean women ask for help in a foreign language? <br><br>
+                Read the tweet I quoted. <br>
+                She wrote a tweet in a 🧵🧵🧵
+                <div class="quoted-tweet">
+                    <div class="user-name">K-News Informant</div>
+                    <div class="user-id">@knewsinformant</div>
+                    <div class="tweet-content">
+                        🚨 BREAKING: Another Nth Room Crime in Korea 🚨 <br><br>
+                        Korean men have been creating multiple chatrooms using Telegram and spreading personal information of women around them, including their family members, coworkers, and classmates. <br>
+                        Almost every school in Korea had a secret Telegram chatroom for boys. It was a place where they used AI to photoshop schoolgirls' faces into porn. <br>
+                        Some rooms required men to secretly take and submit body photos of their female family members in order to join. <br>
+                        These Telegram rooms have an estimated 220,000 members. <br>
+                        However, in this and similar crimes, the South Korean government has always punished only the mastermind, never the subscriber, and never disclosed his information. <br>
+                        And police say they can't catch the criminal because Telegram doesn't provide them with information about him. But this is not true, because feminists who went undercover on Telegram caught the culprit themselves. <br><br>
+                        This case needs to become famous for the lazy Korean police to investigate this matter. This is because South Korean police are indifferent to crimes against women. <br>
+                        So.. That's why problems like rape, sexual exploitation, AI synthesis, and pedophilia using Telegram continue to recur in Korea. <br>
+                        These crimes are becoming more and more serious and involve more victims. The Korean government does not punish the perpetrators because there are too many of them. <br>
+                        So Korean women are reporting this incident to foreign countries. <br>
+                        Because when foreigners criticize this issue, at least the police actively investigate the issue. <br>
+                        Please help!! <br>
+                        Korea is a country ruled by anti-feminist men. Only foreign women can save Korean women.
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-footer">
+                <div><span class="icon">💬</span><span class="tweet-stats">260</span></div>
+                <div><span class="icon">🔄</span><span class="tweet-stats">39k</span></div>
+                <div><span class="icon">❤️</span><span class="tweet-stats">62k</span></div>
+                <div><span class="icon">🔖</span><span class="tweet-stats">10k</span></div>
+            </div>
+        </div>
+
+        <!-- Tweet 2 with Quoted Tweet -->
+        <div class="tweet-container">
+            <div class="tweet-header">
+                <div class="profile-image"></div>
+                <div class="user-info">
+                    <span class="user-name">Poodle</span>
+                    <span class="user-id">@poodle</span>
+                </div>
+            </div>
+            <div class="tweet-content">
+                All schools? What does that mean? <br>
+                Here is the answer. <br><br>
+                Korean feminists went undercover and investigated the case themselves. Really every school..
+                <div class="quoted-tweet">
+                    <div class="user-name">Poodle</div>
+                    <div class="user-id">@poodle</div>
+                    <div class="tweet-content">
+                        In fact, secret men's Telegram rooms were discovered in over 70% of South Korean schools where female students' faces were photoshopped into porn using AI. <br><br>
+                        Girls in South Korea created a list of schools to check if they were victims. This is just a part of it. <br>
+                        <i>[image] [image]</i>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-footer">
+                <div><span class="icon">💬</span><span class="tweet-stats">4</span></div>
+                <div><span class="icon">🔄</span><span class="tweet-stats">728</span></div>
+                <div><span class="icon">❤️</span><span class="tweet-stats">3.6k</span></div>
+                <div><span class="icon">🔖</span><span class="tweet-stats">143</span></div>
+            </div>
+        </div>
+
+        <!-- Tweet 3 with Quoted Tweet -->
+        <div class="tweet-container">
+            <div class="tweet-header">
+                <div class="profile-image"></div>
+                <div class="user-info">
+                    <span class="user-name">Poodle</span>
+                    <span class="user-id">@poodle</span>
+                </div>
+            </div>
+            <div class="tweet-content">
+                What I'm saying isn't a lie. In Korea, this incident was reported in the news. But this incident is only becoming an issue among young women who use Twitter in Korea.
+                <div class="quoted-tweet">
+                    <div class="user-name">Korean News Company</div>
+                    <div class="user-id">@knewscomp</div>
+                    <div class="tweet-content">
+                        엑스를 통해 접근한 텔레그램방은 불법합성물 제작 봇을 탑재하고 있었습니다. 입장하니 “좋아하는 여자의 사진을 보내라”는 문구가 떴습니다. 제작 과정엔 특정 신체 부위 모습을 조정하는 기능까지 있었습니다. 이 방 이용자 수는 21일 기준 22만7천여명에 이릅니다. <br>
+                        [http://link.com] <br><br>
+                        <i>The Telegram group accessed through X contained an illegal image synthesis bot. Upon entering, a message appeared saying, “Send a picture of the woman you like.” The creation process even included features to modify specific body parts. As of the 21st, the number of users in this group reached approximately 227,000.</i>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-footer">
+                <div><span class="icon">💬</span><span class="tweet-stats">4</span></div>
+                <div><span class="icon">🔄</span><span class="tweet-stats">491</span></div>
+                <div><span class="icon">❤️</span><span class="tweet-stats">3.1k</span></div>
+                <div><span class="icon">🔖</span><span class="tweet-stats">54</span></div>
+            </div>
+        </div>
+
+        <!-- Tweet 4 -->
+        <div class="tweet-container">
+            <div class="tweet-header">
+                <div class="profile-image"></div>
+                <div class="user-info">
+                    <span class="user-name">Poodle</span>
+                    <span class="user-id">@poodle</span>
+                </div>
+            </div>
+            <div class="tweet-content">
+                Because the girls are the victims, no one else cares. Only girls worry about their own business.
+            </div>
+            <div class="tweet-footer">
+                <div><span class="icon">💬</span><span class="tweet-stats">4</span></div>
+                <div><span class="icon">🔄</span><span class="tweet-stats">367</span></div>
+                <div><span class="icon">❤️</span><span class="tweet-stats">3.2k</span></div>
+                <div><span class="icon">🔖</span><span class="tweet-stats">31</span></div>
+            </div>
+        </div>
+
+        <!-- Tweet 5 with Quoted Tweet -->
+        <div class="tweet-container">
+            <div class="tweet-header">
+                <div class="profile-image"></div>
+                <div class="user-info">
+                    <span class="user-name">Poodle</span>
+                    <span class="user-id">@poodle</span>
+                </div>
+            </div>
+            <div class="tweet-content">
+                This is a plan to escape after the men's secret Telegram room was discovered by the women.
+                <div class="quoted-tweet">
+                    <div class="user-name">Telegram Undercover</div>
+                    <div class="user-id">@undercover</div>
+                    <div class="tweet-content">
+                        어떤 분이 올리셨는데 바로 삭제하심 근데 내가 봤고 일단 올려야할 것 같다걍 #텔레그램 #겹지 #텔레그램합성 #텔레그램겹지 #합성 #딥페이크방 #딥페이크 <br><br>
+                        <i>Someone posted it but deleted it right away. But I saw it, and I feel like I should share it anyway. #Telegram #OverlappingContent #TelegramSynthesis #TelegramOverlapContent #Synthesis #DeepfakeRoom #Deepfake</i> <br><br>
+                        <i>[A screenshot of a conversation in a Telegram group chat where members are discussing how they might get into big trouble if this situation is reported in the news.]</i>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-footer">
+                <div><span class="icon">💬</span><span class="tweet-stats">20</span></div>
+                <div><span class="icon">🔄</span><span class="tweet-stats">28</span></div>
+                <div><span class="icon">❤️</span><span class="tweet-stats">105</span></div>
+                <div><span class="icon">🔖</span><span class="tweet-stats">10</span></div>
+            </div>
+        </div>
+
+        <!-- Tweet 6 with Quoted Tweet -->
+        <div class="tweet-container">
+            <div class="tweet-header">
+                <div class="profile-image"></div>
+                <div class="user-info">
+                    <span class="user-name">Poodle</span>
+                    <span class="user-id">@poodle</span>
+                </div>
+            </div>
+            <div class="tweet-content">
+                Your attention has created a miracle of getting the Korean government and media to work. <br><br>
+                Thank you. Thank you feminists around the world.
+                <div class="quoted-tweet">
+                    <div class="user-name">Poodle</div>
+                    <div class="user-id">@poodle</div>
+                    <div class="tweet-content">
+                        Now all the Korean news is reporting on the deepfake incident. And the South Korean president and opposition leader also ordered a resolution to this incident. <br><br>
+                        This miracle happened in just a few days because feminists overseas showed solidarity with feminists in the South 🧵 <br>
+                        <i>[Image] [Video]</i>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-footer">
+                <div><span class="icon">💬</span><span class="tweet-stats">399</span></div>
+                <div><span class="icon">🔄</span><span class="tweet-stats">31k</span></div>
+                <div><span class="icon">❤️</span><span class="tweet-stats">76k</span></div>
+                <div><span class="icon">🔖</span><span class="tweet-stats">5.4k</span></div>
+            </div>
+        </div>
+
+        <!-- Tweet 7 with Quoted Tweet -->
+        <div class="tweet-container">
+            <div class="tweet-header">
+                <div class="profile-image"></div>
+                <div class="user-info">
+                    <span class="user-name">Poodle</span>
+                    <span class="user-id">@poodle</span>
+                </div>
+            </div>
+            <div class="tweet-content">
+                <!-- Removed the dot and left it empty -->
+                <div class="quoted-tweet">
+                    <div class="user-name">Poodle</div>
+                    <div class="user-id">@poodle</div>
+                    <div class="tweet-content">
+                        감사합니다 Thank you Gracias Merci Danke ありがとうございます 谢谢 Grazie Спасибо شكراً धन्यवाद Obrigado Teşekkür ederim Cảm ơn ขอบคุณ Terima kasih Dziękuję Dank u Tack <br><br>
+                        Thank you to all the sisters and feminists around the world. 🙇‍♀️ <br>
+                        <i>[A gif of a bear bowing]</i>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-footer">
+                <div><span class="icon">💬</span><span class="tweet-stats">233</span></div>
+                <div><span class="icon">🔄</span><span class="tweet-stats">3.3k</span></div>
+                <div><span class="icon">❤️</span><span class="tweet-stats">16k</span></div>
+                <div><span class="icon">🔖</span><span class="tweet-stats">350</span></div>
+            </div>
+        </div>
+
+        <!-- Tweet 8 with Quoted Tweet -->
+        <div class="tweet-container">
+            <div class="tweet-header">
+                <div class="profile-image"></div>
+                <div class="user-info">
+                    <span class="user-name">Poodle</span>
+                    <span class="user-id">@poodle</span>
+                </div>
+            </div>
+            <div class="tweet-content">
+                <!-- Removed the dot and left it empty -->
+                <div class="quoted-tweet">
+                    <div class="user-name">Poodle</div>
+                    <div class="user-id">@poodle</div>
+                    <div class="tweet-content">
+                        🇰🇷 Breaking news 🇰🇷 <br><br>
+                        South Korean journalists who wrote articles about Telegram deepfake child sex crimes are being blackmailed with deepfakes by the perpetrators. <br><br>
+                        Article link: https://n.news.naver.com/article/... <br><br>
+                        <i>[An image of brief transition of the article. Title: The deepfake perpetrators say "don't step back and deepfake the journalists too" despite drastic measures being signaled. The "deepfake" perpetrators don't stop in spite of the president's warning of rigorous measures... full of confidence that they'll never get caught]</i>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-footer">
+                <div><span class="icon">💬</span><span class="tweet-stats">155</span></div>
+                <div><span class="icon">🔄</span><span class="tweet-stats">18k</span></div>
+                <div><span class="icon">❤️</span><span class="tweet-stats">35k</span></div>
+                <div><span class="icon">🔖</span><span class="tweet-stats">2.3k</span></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
